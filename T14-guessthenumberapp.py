@@ -21,7 +21,7 @@ if st.button("Submit Guess"):
     elif guess > st.session_state.secret_number:
         st.warning("Too high! Try again. 👆")
     else:
-        st.success(f"🏆 Correct! You got it in {st.session_state.attempts} tries!")
+        st.success(f"🏆 Correct! you LOVE DAMLA and You got it in {st.session_state.attempts} tries!")
         # Reset button
         if st.button("Play Again"):
             st.session_state.secret_number = random.randint(1, 100)
